@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectItem.css';
 
-function ProjectItem({ title, description, technologies, backendLink, frontendLink, profileLink }) {
+function ProjectItem({ title, description, technologies, backendLink, frontendLink, profileLink, deployedLink }) {
   return (
     <div className="project-item">
       <div className="project-content">
@@ -26,6 +26,11 @@ function ProjectItem({ title, description, technologies, backendLink, frontendLi
           {frontendLink && (
             <a href={frontendLink} target="_blank" rel="noopener noreferrer" className="project-link">
               Frontend <span className="arrow-icon">→</span>
+            </a>
+          )}
+          {deployedLink && (
+            <a href={deployedLink} target="_blank" rel="noopener noreferrer" className="project-link">
+              Live Demo <span className="arrow-icon">→</span>
             </a>
           )}
           {profileLink && (

@@ -7,7 +7,7 @@ function ProjectList() {
   const projects = [
     {
       id: 1,
-      title: "Online Shopping Application mit Microservices",
+      title: "Online Shopping Application mit Microservices (Backend-Projekt)",
       description: "Entwicklung einer skalierbaren Microservice-Architektur für eine einfache Online-Shopping-Anwendung. Features: Service Discovery, zentralisierte Konfiguration, Distributed Tracing, Event-Driven Architecture, zentralisiertes Logging, Circuit Breaker, sichere Microservices mit Authentifizierungs- und Autorisierungsmechanismus durch Keycloak.",
       imageUrl: "https://via.placeholder.com/600x400?text=Microservice+Shopping+App",
       technologies: ["Java", "Spring Boot", "Spring Cloud", "Resilience4j", "Keycloak", "Kafka", "MongoDB", "Docker", "Kubernetes"],
@@ -20,7 +20,8 @@ function ProjectList() {
       imageUrl: "https://via.placeholder.com/600x400?text=Marathontrainingstagebuch",
       technologies: ["Java", "Spring Boot", "PostgreSQL", "CI/CD-Pipelines", "RESTful APIs", "TypeScript", "Vue 3", "Node.js"],
       backendLink: "https://github.com/ckc-efehan/MarathonDiary",
-      frontendLink: "https://github.com/ckc-efehan/MarathonDiary-frontend"
+      frontendLink: "https://github.com/ckc-efehan/MarathonDiary-frontend",
+      deployedLink: "https://marathondiary-frontend.netlify.app"
     },
     {
       id: 3,
@@ -47,6 +48,7 @@ function ProjectList() {
               backendLink={project.backendLink}
               frontendLink={project.frontendLink}
               profileLink={project.profileLink}
+              deployedLink={project.deployedLink}
             />
           ))}
         </div>
