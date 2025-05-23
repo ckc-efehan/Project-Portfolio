@@ -14,9 +14,7 @@ function About() {
           <div className="about-text">
             <h3>Hallo, ich bin Efehan Cekic</h3>
             <p>
-              Ich bin Student im 5. Semester des Wirtschaftsinformatik Bachelor-Studiengangs an der HTW Berlin und ein leidenschaftlicher Entwickler mit besonderer Expertise in Java-Programmierung und im Aufbau von Webanwendungen.
-              Meine Reise in der Softwareentwicklung begann mit einer Neugier darüber, wie Websites funktionieren, 
-              und hat sich zu einer professionellen Karriere entwickelt, in der ich robuste und benutzerfreundliche Anwendungen erstelle.
+              Ich bin Student im 5. Semester des Wirtschaftsinformatik Bachelor-Studiengangs an der HTW Berlin, wo ich meine Leidenschaft fürs Programmieren entdeckt habe. Ich bin ein engagierter Entwickler mit besonderer Expertise in Java-Programmierung und im Aufbau von Webanwendungen.
             </p>
             <p>
               Mein Fokus liegt auf der Backend-Entwicklung mit Java, wo meine Hauptexpertise liegt,
