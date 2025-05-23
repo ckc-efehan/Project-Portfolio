@@ -30,7 +30,8 @@ function ProjectList() {
       imageUrl: "https://via.placeholder.com/600x400?text=Login+Menu+Webseite",
       technologies: ["Java", "Spring Boot", "Security", "SendGrid API", "PostgreSQL", "JWT-Token", "TypeScript", "Vue 3", "Node.js"],
       backendLink: "https://github.com/ckc-efehan/OnlineShop",
-      frontendLink: "https://github.com/ckc-efehan/OnlineShop-frontend"
+      frontendLink: "https://github.com/ckc-efehan/OnlineShop-frontend",
+      deployedLink: "https://loginmanager-frontend.netlify.app/"
     }
   ];
 
