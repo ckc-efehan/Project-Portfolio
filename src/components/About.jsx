@@ -32,6 +32,8 @@ function About() {
                 <li>MySQL</li>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
+                <li>Docker</li>
+                <li>RESTful APIs</li>
                 <li>Rest-APIs</li>
                 <li>Postman</li>
                 <li>Vue3</li>
