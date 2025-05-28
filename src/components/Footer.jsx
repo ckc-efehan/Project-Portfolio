@@ -9,7 +9,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Kontaktiere Mich</h3>
-          <p>Kontaktiere mich gerne, wenn du einen Entwickler suchst, eine Frage hast oder einfach in Kontakt treten möchtest.</p>
+          <p>Unter diesen Kontaktdaten bin ich erreichbar.</p>
           <ul className="contact-list">
             <li>
               <i className="icon-email"></i>
